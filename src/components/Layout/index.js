@@ -1,9 +1,14 @@
+import Sidebar from '../Sidebar'
 import './index.scss'
 
 import React from 'react'
 
 function Layout() {
-  return <div>Layout</div>
+  return (
+    <>
+      <Sidebar />
+    </>
+  )
 }
 
 export default Layout
